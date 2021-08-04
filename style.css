@@ -1,0 +1,36 @@
+h1{
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  margin: 0;
+}
+h3{
+  font-size:25px;
+}
+body{
+  font-family: cursive;
+}
+footer{
+  color: black;
+}
+#category{
+  font-family: Georgia, serif;
+  border-right: 1px solid black;
+  width: 150px;
+  padding-left: 30px;
+  margin: 0;
+}
+#category ul {
+  font-size: 20px;
+}
+#article{
+  color: white;
+  text-align: center;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 10fr
+}
