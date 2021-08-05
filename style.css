@@ -1,5 +1,6 @@
 h1{
   font-size: 45px;
+  font-family: cursive;
   text-align: center;
   border-bottom: 1px solid black;
   padding: 20px;
@@ -9,10 +10,11 @@ h3{
   font-size:25px;
 }
 body{
-  font-family: cursive;
+  font-family: Georgia;
 }
 footer{
   color: black;
+  text-align: center;
 }
 #category{
   font-family: Georgia, serif;
@@ -21,13 +23,11 @@ footer{
   padding-left: 30px;
   margin: 0;
 }
-#category ul {
+#category ul a{
   font-size: 20px;
-}
-#article{
   color: black;
-  text-align: center;
 }
+
 #grid{
   display: grid;
   grid-template-columns: 1fr 10fr
